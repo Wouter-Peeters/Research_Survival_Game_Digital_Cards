@@ -5,31 +5,9 @@
   "description": "Een FAIR dataset met 97 meerkeuze-quizkaarten voor een bordspel.",
   "license": "CC-BY-4.0",
   "version": "1.0",
-  "cardCount": 97,
+  "cardCount": 1,
   "cards": [
-    { "id": 1, "question": "<VRAAG 1>", "options": { "A": "<A1>", "B": "<B1>", "C": "<C1>", "D": "<D1>" }, "correct": "<A|B|C|D>" },
-    { "id": 2, "question": "<VRAAG 2>", "options": { "A": "<A2>", "B": "<B2>", "C": "<C2>", "D": "<D2>" }, "correct": "<A|B|C|D>" },
-    { "id": 3, "question": "<VRAAG 3>", "options": { "A": "<A3>", "B": "<B3>", "C": "<C3>", "D": "<D3>" }, "correct": "<A|B|C|D>" },
-    { "id": 4, "question": "<VRAAG 4>", "options": { "A": "<A4>", "B": "<B4>", "C": "<C4>", "D": "<D4>" }, "correct": "<A|B|C|D>" },
-    { "id": 5, "question": "<VRAAG 5>", "options": { "A": "<A5>", "B": "<B5>", "C": "<C5>", "D": "<D5>" }, "correct": "<A|B|C|D>" },
-    { "id": 6, "question": "<VRAAG 6>", "options": { "A": "<A6>", "B": "<B6>", "C": "<C6>", "D": "<D6>" }, "correct": "<A|B|C|D>" },
-    { "id": 7, "question": "<VRAAG 7>", "options": { "A": "<A7>", "B": "<B7>", "C": "<C7>", "D": "<D7>" }, "correct": "<A|B|C|D>" },
-    { "id": 8, "question": "<VRAAG 8>", "options": { "A": "<A8>", "B": "<B8>", "C": "<C8>", "D": "<D8>" }, "correct": "<A|B|C|D>" },
-    { "id": 9, "question": "<VRAAG 9>", "options": { "A": "<A9>", "B": "<B9>", "C": "<C9>", "D": "<D9>" }, "correct": "<A|B|C|D>" },
-    { "id": 10, "question": "<VRAAG 10>", "options": { "A": "<A10>", "B": "<B10>", "C": "<C10>", "D": "<D10>" }, "correct": "<A|B|C|D>" },
-    { "id": 11, "question": "<VRAAG 11>", "options": { "A": "<A11>", "B": "<B11>", "C": "<C11>", "D": "<D11>" }, "correct": "<A|B|C|D>" },
-    { "id": 12, "question": "<VRAAG 12>", "options": { "A": "<A12>", "B": "<B12>", "C": "<C12>", "D": "<D12>" }, "correct": "<A|B|C|D>" },
-    { "id": 13, "question": "<VRAAG 13>", "options": { "A": "<A13>", "B": "<B13>", "C": "<C13>", "D": "<D13>" }, "correct": "<A|B|C|D>" },
-    { "id": 14, "question": "<VRAAG 14>", "options": { "A": "<A14>", "B": "<B14>", "C": "<C14>", "D": "<D14>" }, "correct": "<A|B|C|D>" },
-    { "id": 15, "question": "<VRAAG 15>", "options": { "A": "<A15>", "B": "<B15>", "C": "<C15>", "D": "<D15>" }, "correct": "<A|B|C|D>" },
-    { "id": 16, "question": "<VRAAG 16>", "options": { "A": "<A16>", "B": "<B16>", "C": "<C16>", "D": "<D16>" }, "correct": "<A|B|C|D>" },
-    { "id": 17, "question": "<VRAAG 17>", "options": { "A": "<A17>", "B": "<B17>", "C": "<C17>", "D": "<D17>" }, "correct": "<A|B|C|D>" },
-    { "id": 18, "question": "<VRAAG 18>", "options": { "A": "<A18>", "B": "<B18>", "C": "<C18>", "D": "<D18>" }, "correct": "<A|B|C|D>" },
-    { "id": 19, "question": "<VRAAG 19>", "options": { "A": "<A19>", "B": "<B19>", "C": "<C19>", "D": "<D19>" }, "correct": "<A|B|C|D>" },
-    { "id": 20, "question": "<VRAAG 20>", "options": { "A": "<A20>", "B": "<B20>", "C": "<C20>", "D": "<D20>" }, "correct": "<A|B|C|D>" },
-    
-    /* ... kaarten 21 t/m 96 op exact dezelfde manier ... */
+    { "id": 1, "question": "<When should a data management plan (DMP) be started?>", "options": { "A": "<Whenever you want>", "B": "<At the beginning of the project>", "C": "<When all data is collected or produced>" }, "correct": "<B. At the beginning of the project>" },
 
-    { "id": 97, "question": "<VRAAG 97>", "options": { "A": "<A97>", "B": "<B97>", "C": "<C97>", "D": "<D97>" }, "correct": "<A|B|C|D>" }
   ]
 }
