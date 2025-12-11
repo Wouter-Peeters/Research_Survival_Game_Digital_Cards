@@ -7,7 +7,15 @@
   "version": "1.0",
   "cardCount": 1,
   "cards": [
-    { "id": 1, "question": "<When should a data management plan (DMP) be started?>", "options": { "A": "<Whenever you want>", "B": "<At the beginning of the project>", "C": "<When all data is collected or produced>" }, "correct": "<B. At the beginning of the project>" },
-
+    {
+      "id": 1,
+      "question": "When should a data management plan (DMP) be started?",
+      "options": {
+        "A": "Whenever you want",
+        "B": "At the beginning of the project",
+        "C": "When all data is collected or produced"
+      },
+      "correct": "B"
+    }
   ]
 }
