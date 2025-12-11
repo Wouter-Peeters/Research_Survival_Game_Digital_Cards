@@ -7,15 +7,16 @@
   "version": "1.0",
   "cardCount": 1,
   "cards": [
-    {
-      "id": 1,
-      "question": "When should a data management plan (DMP) be started?",
-      "options": {
-        "A": "Whenever you want",
-        "B": "At the beginning of the project",
-        "C": "When all data is collected or produced"
-      },
-      "correct": "B"
+    { "id": 1, "question": "When should a data management plan (DMP) be started?", "options": { "A": "Whenever you want", "B": "At the beginning of the project", "C": "When all data is collected or produced" },
+      "correct": "B", "explanation": "A DMP should be written at the beginning of the project to ensure you’re informed about research data management requirements and possibilities, and that good RDM practices are implemented. However, the DMP is a living document, so it should change and be updated as your research progresses."
     }
+      { "id": 2, "question": "Why should you deposit your datasets in a repository?", "options": { "A": "To store them in a read-only environment", "B": "To collaborate directly with others on the data", "C": "To make them findable and facilitate their reuse" }, "correct": "C", "Explanation": "Depositing data in a data repository makes them Findable, Accessible, Interoperable, and Reusable (FAIR). It supports your research results and makes them verifiable. However, depending on the nature of the data, using a repository is not always an option." },
+      { "id": 3, "question": "Which company had the highest profit margins in 2017?", "options": { "A": "Apple, a technology company", "B": "Elsevier, a scientific publisher", "C": "Total, an oil company" }, "correct": "B", "Explanation": "The profit margins of academic publishers are obscenely high (up to 40%), making some of those margins higher than even companies like Apple and Google." }
+
+ 
+    
+
+    
+
   ]
 }
