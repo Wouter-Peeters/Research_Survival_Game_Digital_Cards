@@ -1,11 +1,12 @@
 let deck = [];
 let usedCards = [];
 
+// Laad het deck
 async function loadDeck() {
     try {
         const response = await fetch("deck.json");
-        deck = await response.json();
-        deck = deck.cards;
+        const data = await response.json();
+        deck = data.cards;
     } catch (error) {
         console.error("Fout bij laden van deck:", error);
     }
@@ -45,20 +46,35 @@ function displayCard(card) {
     }
 }
 
-// Check het antwoord
+// Check het antwoord en toon uitleg
 function checkAnswer(card, chosen) {
     const cardContainer = document.getElementById("card-container");
 
+    // Feedback goed/fout
     if (chosen === card.correct) {
-        cardContainer.innerHTML += `<p style="color: green; font-weight: bold;">Goed!</p>`;
+        cardContainer.innerHTML += `
+            <p style="color: green; font-weight: bold;">Goed!</p>
+        `;
     } else {
         cardContainer.innerHTML += `
             <p style="color: red; font-weight: bold;">Fout.</p>
-            <p>Het juiste antwoord is: <strong>${card.correct}</strong> — ${card.options[card.correct]}</p>
+            <p>
+                Het juiste antwoord is:
+                <strong>${card.correct}</strong> — ${card.options[card.correct]}
+            </p>
         `;
     }
 
-    // Voeg een knop toe voor nieuwe kaart
+    // Toon uitleg (altijd)
+    if (card.explanation) {
+        cardContainer.innerHTML += `
+            <hr>
+            <p><strong>Uitleg:</strong></p>
+            <p>${card.explanation}</p>
+        `;
+    }
+
+    // Knop voor volgende kaart
     const nextBtn = document.createElement("button");
     nextBtn.textContent = "Trek volgende kaart";
     nextBtn.onclick = drawCard;
@@ -66,7 +82,7 @@ function checkAnswer(card, chosen) {
     cardContainer.appendChild(nextBtn);
 }
 
-// Trek kaart functie
+// Trek kaart
 function drawCard() {
     const card = getRandomCard();
     displayCard(card);
