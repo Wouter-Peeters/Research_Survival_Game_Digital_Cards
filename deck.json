@@ -5,7 +5,7 @@
   "description": "Een FAIR dataset met 97 meerkeuze-quizkaarten voor een bordspel.",
   "license": "CC-BY-4.0",
   "version": "1.0",
-  "cardCount": 1,
+  "cardCount": 3,
   "cards": [
     { "id": 1, "question": "When should a data management plan (DMP) be started?", "options": { "A": "Whenever you want", "B": "At the beginning of the project", "C": "When all data is collected or produced" },
       "correct": "B", "explanation": "A DMP should be written at the beginning of the project to ensure you’re informed about research data management requirements and possibilities, and that good RDM practices are implemented. However, the DMP is a living document, so it should change and be updated as your research progresses."
